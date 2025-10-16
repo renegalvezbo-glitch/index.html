@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LIBRERIA PARA ICONOS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="encabezado">
+    <h1>Blog de Desarrollo Web</h1>
+    <p>Tutoriales y recursos sobre código y tecnología</p>
+</div>  
+<div class="navbar">
+    <a href="#"><i class="fa-brands fa-html5"></i>HTML</a>
+    <a href="#"><i class="fa-brands fa-css3-alt"></i>CSS</a>
+    <a href="#"><i class="fa-brands fa-square-js"></i>JS</a>
+    <a href="#"><i class="fa-brands fa-github"></i>GitHub</a>
+</div>          
+<div class="contenedor">
+    <div class="izquierda">
+       <h2><i class="fa-solid fa-user-secret"></i>Sobre el autor</h2>
+        <h5>Mi foto:</h5>
+        <img src="cat.gif" width="200px">
+        <p>Soy un desarrollador web apasionado dandos mis primeros pasos en la creación de páginas web y emocionado por compartir mi viaje de aprendizaje</p>
+        <h3>Proyectos recientes</h3>
+        <h5>Ejemplos de Mi Trabajo</h5>
+        <div class="caja" style="display: flex; justify-content: center; align-items: center; height: 100px; background-color: rgb(51, 51, 51); color: white;">Portafolio Personal</div><br> <!--Manera correcta de centrar contenido en un div-->
+        <div class="caja" style="padding-top:40px; text-align: center; height: 60px; background-color: rgb(51, 51, 51); color: white;">Lista de Tareas</div><br>
+        <div class="caja" style="padding-top:40px; text-align: center; height: 60px; background-color: rgb(51, 51, 51); color: white;">Juego en JS</div><br>
+    </div>
+
+    <div class="derecha">
+        <h2>Fundamentos de HTML 5</h2>
+        <h5>Publicado el 19 de septiembre de 2025</h5>
+        <img src="html.png" height="200px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, voluptatem autem accusantium nostrum provident molestias obcaecati iste architecto odio neque non dolor eveniet quia veniam, tempora iusto repudiandae, quasi quisquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, voluptatem autem accusantium nostrum provident molestias obcaecati iste architecto odio neque non dolor eveniet quia veniam, tempora iusto repudiandae, quasi quisquam.</p>
+        <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 19, 2025</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div> 
+</div>    
+<div class="footer">
+    <h4>© Rory Adriel Sanchez Flores. 2025 All Rights Reserved</h4>
+</div>
+
+<style>
+    .footer{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+   /*.contenedor{
+        display: flex;
+        flex-wrap: wrap;
+    }*/
+
+    .izquierda{
+        flex:30%;
+        background-color: rgb(222, 222, 222);
+        padding: 20px;
+    }
+
+    .derecha{
+        flex:65%;
+        padding: 20px;
+    }
+
+    .encabezado{
+        background-color: #3f51b5;
+        color: white;
+        text-align: center;
+        padding: 60px;
+    }
+    .navbar{
+        background-color: rgb(28, 28, 28);
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .navbar a{
+        padding: 30px;
+        color: white;
+        text-decoration: none; /*Quitar subrayado o decoracion del texto*/
+
+    }
+
+    .navbar i{
+        margin-right: 8px;
+    }
+
+    @media screen and (max-width: 700px){
+
+    }
+
+</style>
+</body>
+</html>
